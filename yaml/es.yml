@@ -1,0 +1,30 @@
+es:
+    header:
+        headline: compre mi producto
+        sub_headline: 
+        main_menu: 
+            item1: 
+            item2: 
+                title : 
+                sub_item1: 
+                sub_item2: 
+                sub_item3: el mejor de todos
+            item3: 
+            item4: contacto
+    footer:
+        links:
+            link1:
+            link2:
+            link3:
+            link4:
+            link5:
+        copyright:
+    content: 
+        home_page: 
+            header:
+        products_page:
+            header:
+        about_page: 
+            header:
+        contact_page:
+            header:

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translation system</title>
+	<link rel="stylesheet" href="css/yaml.css" media="all" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+    <div id='extraMenu'>
+        <ul>
+            <li><label><input type='checkbox' class="minmax" />Minimize all layers</label></li>
+            <li><label><input type='checkbox' class="showEmptyValues" />Show only none-translated</label></li>
+        </ul>
+    </div>
+	<div id='wrap'>
+		<div id='source' class='col'>
+			<header>
+				<button class='save'>Save</button>
+				<div class='msg'></div>
+				<select class='langSelect'>
+                    <option>- Choose language -</option>
+                    <option value='en'>English</option>
+                    <option value='es'>spanish</option>
+				</select>
+			</header>
+		</div>
+		<div class='col empty'>
+			<header>
+				<button class='addLang'>Add language</button>
+			</header>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/inputIndicator.js"></script><!-- only necessary if you go for client-side YAML proccesing to JSON format -->
+	<script>
+		jQuery.extend( jQuery.easing, {
+			def: 'easeOutQuad',
+			easeOutQuad: function (x, t, b, c, d) {
+				return -c *(t/=d)*(t-2) + b;
+			}
+		});
+
+		$('input:text').inputIndicator({bgPos:'18px'});
+	</script>
+	<script src="js/yaml.js"></script>
+	<script src="js/ymlbuilder.js"></script>
+	<script>
+		
+		ymlbuilder.init();
+	</script>
+</body>
+</html>

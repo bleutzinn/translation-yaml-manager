@@ -1,0 +1,47 @@
+{
+  "header": {
+    "headline": "",
+	"sub_headline": "",
+	"xxx_main_menu": "main menu texts",
+	"main_menu" : {
+	  "item1" : "",
+	  "item2" : {
+		"xxx_title": "title of the main menu item",
+		"title" : "",
+		"xxx_sub_item1": "sub-menu items",
+		"sub_item1" : "",
+		"sub_item2" : "",
+		"sub_item3" : ""
+	  },
+      "item3" : "",
+      "item4" : ""
+	}
+  },
+  "xxx_footer": "Constants all the texts for the header",
+  "footer": {
+    "links" : {
+      "link1" : "",
+	  "link2" : "",
+      "link3" : "",
+      "link4" : "",
+	  "link5" : ""
+	},
+	"copyright" : ""
+  },
+  "xxx_content": "All website content",
+  "content": {
+    "home_page" : {
+      "header" : ""
+	},
+	"products_page" : {
+      "header" : ""
+	},
+	"about_page" : {
+      "header" : ""
+	},
+	"contact_page" : {
+      "header" : ""
+	}
+  }
+}
+ 

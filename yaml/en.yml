@@ -1,0 +1,30 @@
+en:
+    header:
+        headline: buy my product
+        sub_headline: ho please I beg you buy it! This is an example of a very long content, exceeding it's container
+        main_menu: 
+            item1: home
+            item2: 
+                title : products
+                sub_item1: great product
+                sub_item2: amazing product
+                sub_item3: the best of all
+            item3: about us
+            item4: contact
+    footer: 
+        links: 
+            link1: home
+            link2: products
+            link3: about us
+            link4: contact
+            link5: sitemap
+        copyright: Made with passion. 2009-2012
+    content: 
+        home_page: 
+            header: home page
+        products_page:
+            header: our products
+        about_page: 
+            header: about us
+        contact_page:
+            header: contact us
